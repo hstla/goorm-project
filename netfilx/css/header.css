@@ -1,0 +1,24 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0);
+    z-index: 1000;
+}
+
+.logo {
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+  
+.profile {
+    padding-top: 5px;
+    padding-right: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }

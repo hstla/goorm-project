@@ -1,0 +1,106 @@
+.movie-detail-area {
+  position: relative;
+    padding-top: 0px;
+}
+
+.player-contents {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  margin-right: 0px;
+  box-shadow: inset 0px 50px black;
+  
+}
+
+.player-contents img {
+  position: relative;
+    width: 100%; 
+    height: 550px; 
+    vertical-align: middle;
+    z-index: 10;
+}
+
+.banner-setting {
+  position: absolute;   /* 'relative'에서 'absolute'로 변경 */
+    bottom: 100px;          
+
+  /* position: relative;
+    top: -650px; */
+    z-index: 50;
+    margin-left: 20px;
+    display: block;
+}
+
+.banner h1{
+  font-size: 50px;
+  color: aliceblue;
+  margin-left: 12px;
+}
+
+.buttons {
+  display: flex;
+  padding-top: 10px;
+}
+
+.buttons button{
+  font-size: 20px;
+  width: 150px;
+  height: 48px;
+  cursor: pointer;
+  margin: 10px;
+  background-color: #1351f9;
+  border-radius: 12px;
+  color: white;
+  border:none;
+}
+
+.description span {
+  padding-top: 20px;
+  display: inline-block;
+  margin-left: 12px;
+  width: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+
+
+
+.recommend {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.recommend h1 {
+  color: white;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  padding-bottom: 30px;
+}
+
+
+.movie {
+  width: 240px;
+  height: 360px;
+  top: 0;
+  left: 0;
+  font-size: 0;
+  margin-right: 30px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.movie:hover {
+  transform: scale(1.2); 
+}
