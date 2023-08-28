@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>to do list</title>
-    <script defer src="main.js"></script>
+    <script type="module" src="modules/main.js"></script>
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -13,11 +13,15 @@
 <body>
     <section>
         <header class="header">
+            <button>
+                <img src="img/allDelete.png" class="allDelete">
+            </button>
             <h3>Todos 앱</h3>
-            <button><u>새로운 TODO 추가하기</u></button>
+            <button class="newBtn"><u>새로운 TODO 추가하기</u></button>
         </header>
 
         <div class="lists">
+            <!-- js로 생성 -->
             <!-- <div class="listBox">
                 <div>
                     <input type="checkbox">
