@@ -1,106 +1,62 @@
-.movie-detail-area {
-  position: relative;
-    padding-top: 0px;
-}
-
-.player-contents {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: 500px;
-  margin: 0;
-  margin-right: 0px;
-  box-shadow: inset 0px 50px black;
-  
-}
-
-.player-contents img {
-  position: relative;
-    width: 100%; 
-    height: 550px; 
-    vertical-align: middle;
-    z-index: 10;
-}
-
-.banner-setting {
-  position: absolute;   /* 'relative'에서 'absolute'로 변경 */
-    bottom: 100px;          
-
-  /* position: relative;
-    top: -650px; */
-    z-index: 50;
-    margin-left: 20px;
-    display: block;
-}
-
-.banner h1{
-  font-size: 50px;
-  color: aliceblue;
-  margin-left: 12px;
-}
-
-.buttons {
+body {
   display: flex;
-  padding-top: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
 }
 
-.buttons button{
-  font-size: 20px;
-  width: 150px;
-  height: 48px;
-  cursor: pointer;
-  margin: 10px;
-  background-color: #1351f9;
-  border-radius: 12px;
-  color: white;
-  border:none;
-}
-
-.description span {
-  padding-top: 20px;
-  display: inline-block;
-  margin-left: 12px;
-  width: 400px;
-  font-size: 16px;
-  line-height: 24px;
-  color: white;
-}
-
-
-
-
-.recommend {
-  padding-top: 30px;
-  padding-left: 20px;
-}
-
-.recommend h1 {
-  color: white;
-  font-size: 30px;
-  padding-bottom: 10px;
-}
-
-
-.container {
-  position: relative;
+section {
+  border: 1px solid;
+  width: 800px;
+  height: 700px;
   display: flex;
-  flex-direction: row;
-  background-color: black;
-  padding-bottom: 30px;
+  flex-direction: column;
+  background-color: #E27680;
+  overflow-y: auto;
+}
+
+.header {
+  margin-top: 15px;
+  padding-left: 30px;
+  padding-right: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header button {
+  color: white;
+  font-size: 15px;
+}
+
+.lists {
+  margin: 10px 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.listBox {
+  height: 55px;
+  background-color: #B4DBE5;
+  margin: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.listBox input {
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.listBox button:last-child {
+  margin-right: 20px;
+  margin-left: 10px;
 }
 
 
-.movie {
-  width: 240px;
-  height: 360px;
-  top: 0;
-  left: 0;
-  font-size: 0;
-  margin-right: 30px;
-  cursor: pointer;
-  transition: transform 0.3s;
-}
-
-.movie:hover {
-  transform: scale(1.2); 
+.todoInput {
+  width: 200px;
+  height: 20px;
 }
