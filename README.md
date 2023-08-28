@@ -1,11 +1,12 @@
 구름 과제 목차
-1. [넷플릭스 클론 코딩](## 1. 넷플릭스 클론 코딩)
-2. [to do list](## 2. to do list )
+
+1. [넷플릭스 클론 코딩](#1.-넷플릭스-클론-코딩)
+2. [to do list](#2.-to-do-list)
 
 ---
 ## 1. 넷플릭스 클론 코딩
 
-css, html만 사용해서 만든 페이지입니다.
+css, html을 사용해서 만든 페이지입니다.
 
 
 ![넷플릭스](https://github.com/hstla/goorm-project/assets/83001865/0d2928b9-8c11-4cca-99c4-5646000fd959)
