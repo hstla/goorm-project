@@ -1,0 +1,15 @@
+footer {
+  color: var(--lightdark);
+  background-color: var(--light);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  padding: 16px;
+}
+
+footer p {
+  font-family: var(--font-family);
+  font-size: .930125rem;
+  margin: 0;
+}
