@@ -61,7 +61,7 @@ github rest api 를 사용하여 git 사용자와 사용자의 리파지토리 �
 <div align="center"><img src="https://github.com/hstla/goorm-project/assets/83001865/a5f0b43f-c33b-47fc-a9d6-5428e4871358"></div>
 
 
-정보를 받지 못했을 땐 사용자에게 알림.
+사용자가 잘못된 정보를 입력했을 때 알림.
 
 <div align="center"><img src="https://github.com/hstla/goorm-project/assets/83001865/dbfa14a9-3d84-440a-ba29-274475542b1c"></div>
 
