@@ -13,8 +13,6 @@
 css, html을 사용해서 만든 페이지입니다.
 
 
-<!-- ![넷플릭스](https://github.com/hstla/goorm-project/assets/83001865/0d2928b9-8c11-4cca-99c4-5646000fd959) -->
-
 <div align="center"><img src="https://github.com/hstla/goorm-project/assets/83001865/0d2928b9-8c11-4cca-99c4-5646000fd959"></div>
 
 
@@ -28,24 +26,23 @@ css, html, javascript로 만든 to do list 페이지입니다.
 
 리스트 생성
 
-
-![생성](https://github.com/hstla/goorm-project/assets/83001865/1ce96539-b0cf-470d-a795-b8082e7355e8)
+<div align="center"><img src="https://github.com/hstla/goorm-project/assets/83001865/1ce96539-b0cf-470d-a795-b8082e7355e8
+"></div>
 
 
 리스트 수정
 
-![수정](https://github.com/hstla/goorm-project/assets/83001865/0bc4e68f-b21d-4dbc-b5a0-bf74cde75c05)
+<div align="center"><img src="https://github.com/hstla/goorm-project/assets/83001865/0bc4e68f-b21d-4dbc-b5a0-bf74cde75c05"></div>
 
 
 리스트 삭제
 
-![삭제](https://github.com/hstla/goorm-project/assets/83001865/bb826bdc-1a47-4adf-80c0-249a4ea54d95)
-
+<div align="center"><img src="https://github.com/hstla/goorm-project/assets/83001865/bb826bdc-1a47-4adf-80c0-249a4ea54d95"></div>
 
 
 스크롤, 취소선 전체 삭제 
 
-![전체 삭제, 스크롤](https://github.com/hstla/goorm-project/assets/83001865/a100612d-b629-41ec-9752-70342a8fdd33)
+<div align="center"><img src="https://github.com/hstla/goorm-project/assets/83001865/a100612d-b629-41ec-9752-70342a8fdd33"></div>
 
 
 ---
@@ -61,12 +58,12 @@ github rest api 를 사용하여 git 사용자와 사용자의 리파지토리 �
 
 리파지토리는 수정일순으로 정렬됩니다.
 
-![정상](https://github.com/hstla/goorm-project/assets/83001865/a5f0b43f-c33b-47fc-a9d6-5428e4871358)
+<div align="center"><img src="https://github.com/hstla/goorm-project/assets/83001865/a5f0b43f-c33b-47fc-a9d6-5428e4871358"></div>
 
 
 정보를 받지 못했을 땐 사용자에게 알림.
 
-![비정상기능](https://github.com/hstla/goorm-project/assets/83001865/dbfa14a9-3d84-440a-ba29-274475542b1c)
+<div align="center"><img src="https://github.com/hstla/goorm-project/assets/83001865/dbfa14a9-3d84-440a-ba29-274475542b1c"></div>
 
 
 
