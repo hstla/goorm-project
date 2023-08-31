@@ -5,10 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Github Finder</title>
-    <script defer src="modules/main.js"></script>
-    <script defer src="github.js"></script>
-    <script defer src="ui.js"></script>
-    <script defer src="app.js"></script>
+    <script type="module" src="modules/main.js"></script>
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
@@ -31,65 +28,7 @@
         <br>
 
         <!-- js로 html 추가 -->
-        <div id="profile">
-            <div class="profile-box">
-                <div class="row">
-                    <div class="profile-picture">
-                        <img src="https://avatars.githubusercontent.com/u/83001865?v=4">
-                        <a href="${user.html_url}" target="_blank">View Profile</a>
-                    </div>
-                    <div class="profile-detail">
-                        <span class="badge blue">Public Repositories: 25</span>
-                        <span class="badge gray">Public Gists: 0</span>
-                        <span class="badge green">Followers: 4</span>
-                        <span class="badge cyan">Following: 0</span>
-                        <br><br>
-                        <ul class="list-group">
-                            <li class="list-group-item"><strong>Company:</strong> ${user.company}</li>
-                            <li class="list-group-item"><strong>Website/Blog:</strong> <a href="${user.blog}"
-                                    target="_blank">${user.blog}</a></li>
-                            <li class="list-group-item"><strong>Location:</strong> ${user.location}</li>
-                            <li class="list-group-item"><strong>Member Since:</strong> ${new
-                                Date(user.created_at).toDateString()}
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <h3 class="repos-h3">Latest Repositories</h3>
-            <div id="repos">
-                <div class="repos-box">
-                    <div class="row">
-                        <div class="repos-detail">
-                            <a href="${repo.html_url}" target="_blank">goorm-project</a>
-                        </div>
-                        <div class="repos-detail">
-                            <span class="badge blue">Stars: 0</span>
-                            <span class="badge gray">Watchers: 0</span>
-                            <span class="badge green">Forks: 0</span>
-                            <span class="badge cyan">Language: javascript</span>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="repos-box">
-                    <div class="row">
-                        <div class="repos-detail">
-                            <a href="${repo.html_url}" target="_blank">goorm-project</a>
-                        </div>
-                        <div class="repos-detail">
-                            <span class="badge blue">Stars: 0</span>
-                            <span class="badge gray">Watchers: 0</span>
-                            <span class="badge green">Forks: 0</span>
-                            <span class="badge cyan">Language: javascript</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+        <div id="profile"></div>
     </div>
 
     <footer>
