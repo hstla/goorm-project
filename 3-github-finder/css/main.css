@@ -138,3 +138,28 @@
   padding-right: 15px;
   padding-left: 15px;
 }
+
+
+.grass {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.grass img {
+  width: 80%;
+}
+
+
+.alert-danger {
+  background-color: var(--red);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: 0.25rem;
+  margin-top: 0.5rem;
+}
