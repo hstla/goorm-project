@@ -5,13 +5,18 @@
 2. [to do list](#2-to-do-list)
 3. [Github Finder](#3-Github-Finder)
 
+
+
 ---
 ## 1. 넷플릭스 클론 코딩
 
 css, html을 사용해서 만든 페이지입니다.
 
 
-![넷플릭스](https://github.com/hstla/goorm-project/assets/83001865/0d2928b9-8c11-4cca-99c4-5646000fd959){: .align-center}
+<!-- ![넷플릭스](https://github.com/hstla/goorm-project/assets/83001865/0d2928b9-8c11-4cca-99c4-5646000fd959) -->
+
+<center><img src="https://github.com/hstla/goorm-project/assets/83001865/0d2928b9-8c11-4cca-99c4-5646000fd959"></center>
+
 
 ---
 ## 2. to do list 
