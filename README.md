@@ -15,7 +15,7 @@ css, html을 사용해서 만든 페이지입니다.
 
 <!-- ![넷플릭스](https://github.com/hstla/goorm-project/assets/83001865/0d2928b9-8c11-4cca-99c4-5646000fd959) -->
 
-<center><img src="https://github.com/hstla/goorm-project/assets/83001865/0d2928b9-8c11-4cca-99c4-5646000fd959"></center>
+<div align="center"><img src="https://github.com/hstla/goorm-project/assets/83001865/0d2928b9-8c11-4cca-99c4-5646000fd959"></div>
 
 
 ---
