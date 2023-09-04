@@ -4,6 +4,7 @@
 1. [넷플릭스 클론 코딩](#1-넷플릭스-클론-코딩)
 2. [to do list](#2-to-do-list)
 3. [Github Finder](#3-Github-Finder)
+4. [Spread Sheet](#4-Spread-Sheet)
 
 
 
@@ -68,3 +69,28 @@ github rest api 를 사용하여 git 사용자와 사용자의 리파지토리 �
 
 
 ---
+
+
+## 4. Spread Sheet
+
+구글의 Spread sheet를 클론코딩한 페이지입니다.
+
+
+테이블의 모든 칸에 입력 가능하고, 좌측상단에 focus된 셀의 좌표값을 표시해줍니다.
+focus된 셀의 행과 열의 헤더에 하이라이트됩니다.
+
+<div align="center"><img src="https://github.com/hstla/hstla.github.io/assets/83001865/5b12cef4-0b20-4303-9eef-d15791fdfd01"></div>
+
+
+
+좌측상단의 "Export SpreadSheet"를 클릭하면 Blob 객체를 사용하여 CSV 데이터를 포함하는 새로운 Blob을 생성합니다. 
+
+이후 URL.createObjectURL를 사용하여 url 생성 후 클릭하여 사용자에게 다운받을 경로와 파일 이름을 받은 후 저장합니다.
+
+<div align="center"><img src="https://github.com/hstla/goorm-project/assets/83001865/b3979970-1e94-42b3-be8e-d2920a8540b9"></div>
+
+
+
+다운받은 scv파일을 구글 spread sheet에서 import하여 값이 같은지 확인합니다.
+
+<div align="center"><img src="https://github.com/hstla/hstla.github.io/assets/83001865/fb0f16d9-5931-47da-aebf-e887e7cc63a1"></div>
