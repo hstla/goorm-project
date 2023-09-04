@@ -1,0 +1,60 @@
+table {
+  /* width: 100%; */
+  border-collapse: collapse;
+  border: 1px solid #DDDDDD;
+}
+
+th {
+  border: 1px solid #DDDDDD;
+  background-color: #DEDEDE;
+  width: 120px;
+  height: 40px;
+}
+
+td {
+  border: 1px solid #DDDDDD;
+  height: 40px;
+}
+
+table td:first-child {
+  background-color: #DEDEDE;
+  text-align: center;
+}
+
+input {
+  /* background-color: blanchedalmond; */
+  border: none;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  background-color: #08AB47;
+  color: white;
+  border: 0;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.div-bnt {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+
+.cell-location {
+  font-size: 20px;
+}
+
+table th.highlighted,
+table td:first-child.highlighted {
+  background-color: #AED8E6;
+  color: white;
+}
