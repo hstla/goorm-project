@@ -2,6 +2,8 @@ import React from 'react';
 
 function Input({ expense, setExpense, cost, setCost, handleAction, editingIndex }) {
   return (
+
+
     <div>
       <div className='flex space-x-4 justify-center'>
         <label className='flex flex-col items-start text-orange-400 w-1/2'>
