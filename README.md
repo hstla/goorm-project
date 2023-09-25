@@ -6,6 +6,7 @@
 3. [Github Finder](#3-Github-Finder)
 4. [Spread Sheet](#4-Spread-Sheet)
 5. [react CRUD](#5-react-CRUD)
+6. [shopping mall](#6-shopping-mall)
 
 
 
@@ -137,6 +138,43 @@ focus된 셀의 행과 열의 헤더에 하이라이트됩니다.
 모든 아이템을 삭제하고 싶으면 목록 지우기버튼을 눌러 모두 삭제합니다.
 
 <div align="center"><img src="https://github.com/hstla/goorm-project/assets/83001865/bce96b2b-fa70-4a64-bbf6-6ac26da8b6aa"></div>
+
+<br>
+<br>
+
+## 6. shopping mall
+
+### 설명
+
+react, typescript, vite를 사용하여 쇼핑몰을 구현했습니다.
+
+fakestoreapi.com 에서 필요한 아이템 데이터를 사용했습니다.
+
+
+### 구현 기능
+
+firebase의 이메일/비밀번호를 사용하여 회원가입, 로그인기능을 구현했습니다.
+
+<div align="center"><img src="https://github.com/hstla/hstla.github.io/assets/83001865/bbca2066-b9e4-488d-b444-2b0bdd86a704"></div>
+
+<br>
+<br>
+
+fakestoreapi.com 에서 가져온 아이템 정보를 카테고리별로 보여주는 홈화면입니다.
+
+<div align="center"><img src="https://github.com/hstla/hstla.github.io/assets/83001865/1ba31689-ac4f-4592-8494-8cb1bc8d182e"></div>
+
+<br>
+<br>
+
+로컬스토리지를 사용하여 장바구니 기능을 구현했습니다.
+
+<div align="center"><img src="https://github.com/hstla/hstla.github.io/assets/83001865/c5c674d3-616e-4235-ad1b-8247c756f236"></div>
+
+<br>
+<br>
+
+<div align="center"><img src="https://github.com/hstla/hstla.github.io/assets/83001865/dad5e008-8b87-463d-abdd-7c902a9778c0"></div>
 
 <br>
 <br>
