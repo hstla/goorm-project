@@ -1,6 +1,12 @@
 # 구름 과제 목차
 
-프론트엔드
+## 백엔드
+
+1. [LinkedList 구현하기](#1-LinkedList-구현하기)
+
+
+
+## 프론트엔드
 1. [넷플릭스 클론 코딩](#1-넷플릭스-클론-코딩)
 2. [to do list](#2-to-do-list)
 3. [Github Finder](#3-Github-Finder)
@@ -9,17 +15,27 @@
 6. [shopping mall](#6-shopping-mall)
 7. [note app](#7-note-app)
 
-백엔드
-
-
 
 ---
+
+## 1. LinkedList 구현하기
+
+### 설명
+
+### 구현 기능
+
+
+
+
+
 ## 1. 넷플릭스 클론 코딩
 
 ### 설명
 
 css, html을 사용해서 만든 페이지입니다.
 
+<br>
+<br>
 
 <div align="center"><img src="https://github.com/hstla/goorm-project/assets/83001865/0d2928b9-8c11-4cca-99c4-5646000fd959"></div>
 
@@ -39,6 +55,7 @@ css, html, javascript로 만든 to do list 페이지입니다.
 
 <div align="center"><img src="https://github.com/hstla/goorm-project/assets/83001865/1ce96539-b0cf-470d-a795-b8082e7355e8
 "></div>
+
 <br>
 <br>
 
