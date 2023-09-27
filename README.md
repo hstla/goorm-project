@@ -1,4 +1,4 @@
-구름 과제 목차
+# 구름 과제 목차
 
 프론트엔드
 1. [넷플릭스 클론 코딩](#1-넷플릭스-클론-코딩)
@@ -7,11 +7,16 @@
 4. [Spread Sheet](#4-Spread-Sheet)
 5. [react CRUD](#5-react-CRUD)
 6. [shopping mall](#6-shopping-mall)
+7. [note app](#7-note-app)
+
+백엔드
 
 
 
 ---
 ## 1. 넷플릭스 클론 코딩
+
+### 설명
 
 css, html을 사용해서 만든 페이지입니다.
 
@@ -22,9 +27,12 @@ css, html을 사용해서 만든 페이지입니다.
 ---
 ## 2. to do list 
 
+### 설명
+
 css, html, javascript로 만든 to do list 페이지입니다.
 
-### 기능
+### 구현 기능
+
 리스트 생성, 수정, 삭제, 체크 박스 클릭 시 취소선, 전체 삭제를 구현했습니다.
 
 리스트 생성
@@ -55,10 +63,13 @@ css, html, javascript로 만든 to do list 페이지입니다.
 
 ## 3. Github Finder
 
+### 설명
+
 javascript, html, css로 작성한 화면입니다.
 
 github rest api 를 사용하여 git 사용자와 사용자의 리파지토리 정보를 받아 출력하는 페이지입니다.
 
+### 구현 기능
 
 사용자에게 github user을 입력받아 user의 정보를 출력합니다. 
 
@@ -79,8 +90,11 @@ github rest api 를 사용하여 git 사용자와 사용자의 리파지토리 �
 
 ## 4. Spread Sheet
 
+### 설명
+
 구글의 Spread sheet를 클론코딩한 페이지입니다.
 
+### 구현 기능
 
 테이블의 모든 칸에 입력 가능하고, 좌측상단에 focus된 셀의 좌표값을 표시해줍니다.
 focus된 셀의 행과 열의 헤더에 하이라이트됩니다.
@@ -110,10 +124,13 @@ focus된 셀의 행과 열의 헤더에 하이라이트됩니다.
 
 ## 5. react CRUD 
 
+### 설명
 
 리액트를 사용하여 로컬스토리지 CRUD 기능이 있는 예산계산기입니다.
 
 개발하면서 재사용성 높은 코드를 구현하기 위해 컴포넌트를 최대한 분리하여 개발했습니다.
+
+### 구현 기능
 
 
 생성기능입니다. 지출항목과 비용을 작성하고 제출버튼을 누르면 해당 아이템이 추가되고 알람으로 알려줍니다.
@@ -175,6 +192,47 @@ fakestoreapi.com 에서 가져온 아이템 정보를 카테고리별로 보여�
 <br>
 
 <div align="center"><img src="https://github.com/hstla/hstla.github.io/assets/83001865/dad5e008-8b87-463d-abdd-7c902a9778c0"></div>
+
+<br>
+<br>
+
+
+## 7. note app
+
+### 설명
+
+create,read ,update, delete가 가능한 노틍 앱입니다.
+
+노트 태그기능, 정렬기능을 추가하였습니다.
+
+typescript, react로 구현했고, redux를 사용하여 상태 관리했습니다.
+
+### 구현 기능
+
+설명
+
+<div align="center"><img src=""></div>
+
+<br>
+<br>
+
+설명
+
+<div align="center"><img src=""></div>
+
+<br>
+<br>
+
+설명
+
+<div align="center"><img src=""></div>
+
+<br>
+<br>
+
+설명
+
+<div align="center"><img src=""></div>
 
 <br>
 <br>
