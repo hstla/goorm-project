@@ -25,8 +25,15 @@
 ### 구현 기능
 
 
+## 2. 장바구니 구현
+
+### 설명
+
+### 구현 기능
 
 
+
+# 프론트엔드
 
 ## 1. 넷플릭스 클론 코딩
 
@@ -226,30 +233,32 @@ typescript, react로 구현했고, redux를 사용하여 상태 관리했습니�
 
 ### 구현 기능
 
-설명
+노트 생성
 
-<div align="center"><img src=""></div>
+노트를 생성하면서 배경색, 중요도, 태그를 넣을 수 있습니다.
 
-<br>
-<br>
-
-설명
-
-<div align="center"><img src=""></div>
+<div align="center"><img src="https://github.com/hstla/goorm-project/assets/83001865/9422518b-e628-4a04-9afd-831cfc8f86a4"></div>
 
 <br>
 <br>
 
-설명
+사이드바에서 태그별로 노트를 확인 할 수 있습니다.
 
-<div align="center"><img src=""></div>
+<div align="center"><img src="https://github.com/hstla/goorm-project/assets/83001865/ebb5f3aa-f644-468a-9fbf-d6b27538c05b"></div>
 
 <br>
 <br>
 
-설명
+노트의 내용을 수정할 수 있습니다.
 
-<div align="center"><img src=""></div>
+<div align="center"><img src="https://github.com/hstla/goorm-project/assets/83001865/9a1a5e34-fa86-4342-83aa-5707a6988ca3"></div>
+
+<br>
+<br>
+
+삭제버튼을 누른 노트는 Trash태그로 이동합니다. Trash로 이동해 노트를 완전삭제할 수 있습니다.
+
+<div align="center"><img src="https://github.com/hstla/goorm-project/assets/83001865/8bbafebe-b644-442d-8b26-4298ae5a6757"></div>
 
 <br>
 <br>
