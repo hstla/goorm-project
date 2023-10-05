@@ -51,7 +51,6 @@ public class MyLinkedList<T> implements Iterable<T> {
         extracted(index);
         if (index == 0) {
             first = first.getNext();
-            // todo
         } else if (index == size - 1) {
             if (last.getPrev() != null) {
                 last.getPrev().setNext(null);
@@ -105,7 +104,7 @@ public class MyLinkedList<T> implements Iterable<T> {
             public T next() {
                 // 다음이 있는지 먼저 확인하고, 있으면 동작
                 if (!hasNext()) {
-                    throw new NoSuchElementException();
+                    throw new NoSuchElementException("다음은 없어요.");
                 }
                 T data = current.getItem();
                 current = current.getNext();
