@@ -6,7 +6,6 @@
 2. [장바구니 구현하기](#2-장바구니-구현)
 
 
-
 ## 프론트엔드
 1. [넷플릭스 클론 코딩](#1-넷플릭스-클론-코딩)
 2. [to do list](#2-to-do-list)
@@ -19,18 +18,45 @@
 
 ---
 
+# 백엔드
+
 ## 1. LinkedList 구현
 
 ### 설명
 
-[LinkedList 구현 링크](https://github.com/hstla/goorm-project/tree/main/b1-LinkedList)
+Node 클래스를 Doubly Linked list로 구현하여 자바의 LinkedList 의 add(generic g), get(index i), delete(index i) 메서드를 구현했습니다.
+
+노드에 들어가는 데이터의 타입은 LinkedList를 생성할 때 정할 수 있도록 제네릭으로 구현했습니다.
+
+Iterable 를 implements 하여 for-each 로 순회 가능하도록 했습니다.
+
+구현한 LinkedList 로 Queue 와 stack 를 구현했습니다.
+
+Junit5와 AssertJ 로 테스트 코드를 작성했습니다.
+
+
+[LinkedList 구현 폴더 링크](https://github.com/hstla/goorm-project/tree/main/b1-LinkedList)
 
 ## 2. 장바구니 구현
 
+HashSet과 HashMap 으로 장바구니를 구현했습니다.
+
 ### 설명
 
-[장바구니 구현 링크](https://github.com/hstla/goorm-project/tree/main/b2-shoppingBasket)
+HashSet으로 상품 목록을 만들고, HashMap을 사용해서 장바구니에 상품을 저장합니다.
 
+HashSet에 같은 상품이 중복되지 않도록 equals와 hashCode메서드를 override 했습니다. equals는 key가 같은 상품을 같다고 구현했고, hashCode는 key, name, price 값을 이용하도록 설정했습니다.
+
+장바구니(Cart)에 상품을 추가하려면 수량을 정해야 하고 showItems(), addProduct(), removeProduct() 메서드를 구현하여 장바구니 보기, 상품 추가, 상품 삭제를 구현했습니다.
+
+장바구니에서 상품 제거 시 장바구니에 담긴 상품이 없거나 제거하려는 상품의 수가 기존 상품의 수보다 많으면 에러를 반환합니다.
+
+장바구니 보기 기능은 장바구니에 들어 있는 상품 이름과 상품 개수를 출력합니다.
+
+Junit5와 AssertJ로 테스트 코드를 작성했습니다.
+
+
+[장바구니 구현 폴더 링크](https://github.com/hstla/goorm-project/tree/main/b2-shoppingBasket)
 
 
 
