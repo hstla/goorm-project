@@ -2,7 +2,8 @@
 
 ## 백엔드
 
-1. [LinkedList 구현하기](#1-LinkedList-구현하기)
+1. [LinkedList 구현하기](#1-LinkedList-구현)
+2. [장바구니 구현하기](#2-장바구니-구현)
 
 
 
@@ -18,18 +19,19 @@
 
 ---
 
-## 1. LinkedList 구현하기
+## 1. LinkedList 구현
 
 ### 설명
 
-### 구현 기능
-
+[LinkedList 구현 링크](https://github.com/hstla/goorm-project/tree/main/b1-LinkedList)
 
 ## 2. 장바구니 구현
 
 ### 설명
 
-### 구현 기능
+[장바구니 구현 링크](https://github.com/hstla/goorm-project/tree/main/b2-shoppingBasket)
+
+
 
 
 

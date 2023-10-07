@@ -1,6 +1,5 @@
 package org.example;
 
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -25,8 +24,6 @@ public class CartApp {
 
         // 장바구니 생성
         Cart myCart = new Cart();
-        myCart.addProduct(milk, 2);
-        myCart.addProduct(coll, 2);
 
         // 상품을 장바구니에 추가
         myCart.addProduct(milk, 2);
