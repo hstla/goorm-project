@@ -7,12 +7,16 @@ import java.util.NoSuchElementException;
 
 public class Cart {
 
-    private static Map<Product, Integer> items = new HashMap<>();
+    private final static Map<Product, Integer> items = new HashMap<>();
 
     public Cart() {}
 
     public void addProduct(Product product, Integer quantity) {
-        items.put(product, quantity);
+        if (items.containsKey(product)) {
+            items.put(product, items.get(product) + quantity);
+        } else {
+            items.put(product, quantity);
+        }
     }
 
     public int size() {

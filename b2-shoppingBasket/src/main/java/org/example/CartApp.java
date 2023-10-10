@@ -27,6 +27,7 @@ public class CartApp {
 
         // 상품을 장바구니에 추가
         myCart.addProduct(milk, 2);
+        myCart.addProduct(milk, 3);
 
         // 상품을 장바구니에서 제거
         myCart.removeProduct(milk, 1);
