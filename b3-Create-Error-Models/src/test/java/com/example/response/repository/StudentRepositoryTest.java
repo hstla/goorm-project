@@ -1,6 +1,5 @@
 package com.example.response.repository;
 
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 import com.example.response.domain.Student;
@@ -8,14 +7,10 @@ import java.util.List;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
 class StudentRepositoryTest {
 
-    @Autowired
-    private  StudentRepository studentRepository;
+    StudentRepository studentRepository = new StudentRepositoryImpl();
 
     @AfterEach
     void tearDown() {
@@ -47,7 +42,6 @@ class StudentRepositoryTest {
         assertThat(result.get(0).getGrade()).isEqualTo(1);
         assertThat(result.get(1).getGrade()).isEqualTo(2);
     }
-
 
     @DisplayName("해당 성적 학생만 나오는 지 확인한다.")
     @Test
