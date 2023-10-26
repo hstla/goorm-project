@@ -40,8 +40,8 @@ class StudentServiceTest {
             .build();
 
         // when
-        studentService.addStudent(student1);
-        studentService.addStudent(student2);
+        studentService.addStudent(student1.getName(), student1.getGrade());
+        studentService.addStudent(student2.getName(), student2.getGrade());
         List<Student> result = studentService.getAll();
 
         // then
@@ -65,8 +65,8 @@ class StudentServiceTest {
             .build();
 
         // when
-        studentService.addStudent(student1);
-        studentService.addStudent(student2);
+        studentService.addStudent(student1.getName(), student1.getGrade());
+        studentService.addStudent(student2.getName(), student2.getGrade());
         List<Student> result = studentService.getGradeStudent(1);
 
         // then

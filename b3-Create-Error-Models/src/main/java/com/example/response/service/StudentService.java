@@ -12,7 +12,8 @@ public class StudentService {
 
     private final StudentRepository studentRepository;
 
-    public Student addStudent(Student student) {
+    public Student addStudent(String name, int grade) {
+        Student student = Student.builder().name(name).grade(grade).build();
         studentRepository.add(student);
         return student;
     }
