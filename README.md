@@ -4,6 +4,7 @@
 
 1. [LinkedList 구현하기](#1-LinkedList-구현)
 2. [장바구니 구현하기](#2-장바구니-구현)
+3. [응답/에러모델 만들기](#응답/에러모델-만들기)
 
 
 ## 프론트엔드
@@ -58,6 +59,26 @@ Junit5와 AssertJ로 테스트 코드를 작성했습니다.
 
 [장바구니 구현 폴더 링크](https://github.com/hstla/goorm-project/tree/main/b2-shoppingBasket)
 
+
+
+## 3. 응답/에러모델 만들기
+
+spring mvc 를 사용하여 API 요구사항에 맞게 구현했습니다.
+
+API 요구사항
+
+<div style="display: flex; justify-content: center; width: 100%;">
+    <img src="https://github.com/hstla/goorm-project/assets/83001865/cb19d346-7184-4c53-a545-5c6b0298ffc8" style="margin-right: 20px;">
+    <img src="https://github.com/hstla/goorm-project/assets/83001865/1d03a51f-54d0-46a4-a90f-afc203c403bb">
+</div>
+
+
+
+### 설명
+
+
+
+[응답/에러모델 만들기 링크](https://github.com/hstla/goorm-project/tree/main/b3-Create-Error-Models)
 
 
 
