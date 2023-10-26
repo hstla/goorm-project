@@ -65,18 +65,24 @@ Junit5와 AssertJ로 테스트 코드를 작성했습니다.
 
 spring mvc 를 사용하여 API 요구사항에 맞게 구현했습니다.
 
-API 요구사항
-
-<div style="display: flex; justify-content: center; width: 100%;">
-    <img src="https://github.com/hstla/goorm-project/assets/83001865/cb19d346-7184-4c53-a545-5c6b0298ffc8" style="margin-right: 20px;">
-    <img src="https://github.com/hstla/goorm-project/assets/83001865/1d03a51f-54d0-46a4-a90f-afc203c403bb">
-</div>
-
-
-
 ### 설명
 
+API 요구사항
 
+성공 응답 예시와 에러 응답 예시
+
+<div style="display: flex; justify-content: center; align-items: flex-start; width: 100%;">
+    <img src="https://github.com/hstla/goorm-project/assets/83001865/1d03a51f-54d0-46a4-a90f-afc203c403bb" width="300" style="display: block;">
+    <img src="https://github.com/hstla/goorm-project/assets/83001865/cb19d346-7184-4c53-a545-5c6b0298ffc8" width="300" style="margin-left: 40px; display: block;">
+</div>
+
+성공 응답과 에러 응답을 하나의 FORM에서 처리하기 위해 제네릭을 사용해서 ApiResponse를 구현했습니다.
+
+프로젝트에 필요한 에러를 enum에 정의하고 RuntimeException을 확장한 CustomException을 구현했고 @ExceptionHandler를 사용하여 커스텀 에러를 처리했습니다.
+
+리파지토리 인터페이스를 도입하여 클래스 간의 연결을 느슨하게 만들었습니다.
+
+MockMvc를 사용하여 HTTP 요청을 시뮬레이션해서 스프링 MVC의 동작을 테스트했습니다.
 
 [응답/에러모델 만들기 링크](https://github.com/hstla/goorm-project/tree/main/b3-Create-Error-Models)
 
