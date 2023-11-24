@@ -30,13 +30,13 @@ public class ArticleController {
         return articleService.writeArticle(articlePostRequest);
     }
 
-    // 게시글 목록 조회(페이징)
+    // 게시글 목록 조회(커서 페이징)
     @GetMapping("articles")
     public List<ArticleListResponse> searchArticleList(
-        @RequestParam("page") int page,
-        @RequestParam("pageSize") int pageSize
+        @RequestParam("pageSize") int pageSize,
+        @RequestParam("lastArticleNo") Long lastArticleNo
     ) {
-        return articleService.searchArticleList(page, pageSize);
+        return articleService.searchArticleList(pageSize, lastArticleNo);
     }
 
     // 게시글 단건 조회 (게시글 + 댓글)

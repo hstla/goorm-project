@@ -9,13 +9,16 @@ import com.goorm.project.forum.domain.response.ArticleResponse;
 import com.goorm.project.forum.repository.ArticleRepository;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Sort;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @RequiredArgsConstructor
+@Transactional(readOnly = true)
+@Slf4j
 public class ArticleService {
 
     private final ArticleRepository articleRepository;
@@ -25,13 +28,15 @@ public class ArticleService {
         return ArticleResponse.from(articleRepository.save(article));
     }
 
-    public List<ArticleListResponse> searchArticleList(int page, int pageSize) {
-        return articleRepository.findAllByDeleteStatus(
-                DeleteStatus.ACTIVE,
-                PageRequest.of(page, pageSize, Sort.by(Sort.Direction.DESC, "articleNo"))
-            ).map(ArticleListResponse::from)
+    public List<ArticleListResponse> searchArticleList(int pageSize, Long lastArticleNo) {
+        Page<Article> articles = articleRepository.findArticlesAfterLastArticleNo(
+            DeleteStatus.ACTIVE, lastArticleNo, Pageable.ofSize(pageSize));
+        log.info("서비스단");
+        return articles.stream()
+            .map(ArticleListResponse::from)
             .toList();
     }
+
 
     public ArticleResponse searchArticle(Long articleNo) {
         return articleRepository.findArticleWithCommentsByArticleNo(articleNo)
