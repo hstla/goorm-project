@@ -7,7 +7,7 @@
 3. [응답/에러모델 만들기](#3-응답/에러모델-만들기)
 4. [게시판 구현하기](#4-게시판-구현하기)
 5. [Tricount 클론 코딩](#5-Tricount-클론-코딩)
-6. [서버 애플리케이션 AWS에 배포하기](#6-서버-애플리케이션-AWS에-배포하기)
+<!-- 6. [서버 애플리케이션 AWS에 배포하기](#6-서버-애플리케이션-AWS에-배포하기) -->
 
 
 ## 프론트엔드
@@ -92,7 +92,7 @@ MockMvc를 사용하여 HTTP 요청을 시뮬레이션해서 스프링 MVC의 �
 
 ## 4. 게시판 구현하기
 
-spring Data JPA를 사용하여 CRUD게시판을 요구사항에 맞춰 만들었습니다.
+spring Data JPA를 사용하여 CRUD게시판을 [요구사항](https://github.com/hstla/goorm-project/tree/main/b4-Jpa-Forum)에 맞춰 만들었습니다.
 
 ### 설명
 
@@ -102,16 +102,20 @@ spring Data JPA를 사용하여 CRUD게시판을 요구사항에 맞춰 만들�
 
 MockMvc를 사용하여 HTTP 요청을 시뮬레이션해서 스프링 MVC의 동작을 테스트했습니다.
 
-[게시판 구현하기](https://github.com/hstla/goorm-project/tree/main/b4-Jpa-Forum)
+[게시판 구현하기 링크](https://github.com/hstla/goorm-project/tree/main/b4-Jpa-Forum)
 
 
 ## 5. Tricount 클론 코딩
 
+
+
+
+
 [Tricount 클론 코딩 링크]()
 
-## 6. 서버 애플리케이션 AWS에 배포하기
+<!-- ## 6. 서버 애플리케이션 AWS에 배포하기
 
-[서버 애플리케이션 AWS에 배포하기 링크]()
+[서버 애플리케이션 AWS에 배포하기 링크]() -->
 
 
 
