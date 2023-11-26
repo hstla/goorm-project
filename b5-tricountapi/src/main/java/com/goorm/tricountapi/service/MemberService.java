@@ -6,6 +6,7 @@ import com.goorm.tricountapi.enums.TricountApiErrorCode;
 import com.goorm.tricountapi.model.Member;
 import com.goorm.tricountapi.repository.MemberRepository;
 import com.goorm.tricountapi.util.TricountApiException;
+import java.util.Optional;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import lombok.RequiredArgsConstructor;
@@ -39,5 +40,12 @@ public class MemberService {
         if (session != null) {
             session.invalidate();
         }
+    }
+
+
+    public Member findMemberById(Long memberId) {
+        return memberRepository.findById(memberId)
+            .orElseThrow(
+                () -> new TricountApiException("존재하지 않는 회원입니다.", TricountApiErrorCode.NOT_FOUND));
     }
 }

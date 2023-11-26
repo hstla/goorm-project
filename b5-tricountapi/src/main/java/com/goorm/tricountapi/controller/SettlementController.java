@@ -32,4 +32,10 @@ public class SettlementController {
     public ApiResponse<BalanceResult> getSettlementBalanceResult(@PathVariable("id") Long settlementId) {
         return new ApiResponse<BalanceResult>().ok(settlementService.getBalanceResult(settlementId));
     }
+
+    @GetMapping("/settle")
+    public ApiResponse<> getSettlement() {
+
+        return new ApiResponse<>().ok(settlementService.getBalanceResult(settlementId));
+    }
 }

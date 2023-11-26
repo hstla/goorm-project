@@ -13,6 +13,7 @@ public class MemberContext {
         return memberThreadLocal.get();
     }
 
-    // clear같은것도 넣어줘도 됩니다.
-
+    public static void clear() {
+        memberThreadLocal.remove();
+    }
 }
