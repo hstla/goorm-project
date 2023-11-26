@@ -24,5 +24,4 @@ public class ExpenseController {
     ) {
         return new ApiResponse<ExpenseResult>().ok(expenseService.addExpense(expenseRequest));
     }
-
 }
